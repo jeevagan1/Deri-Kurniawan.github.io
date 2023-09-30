@@ -1,3 +1,9 @@
 pipeline {
-
+    stages{
+        stage('build') {
+            steps{
+                npm install -f 
+            }
+        }
+    }
 }
